@@ -8,13 +8,13 @@ I am learning AI to understand AI. By the end, I am not sure yet what I want to 
 ## Placement
 - Date: 2026-10-23
 - Score: 3/10 (Math & Statistics: 1/2; Classical ML: 0/2; Deep Learning: 0/2; NLP & Transformers: 0/2; Applied AI: 2/2)
-- Entry point: Phase 1: Math Foundations
+- Entry point: Phase 0: Setup & Tooling
 - Pace: As fast as possible
 
 ## Path
 | Phase | Name | Status | Est. hours |
 |-------|------|--------|------------|
-| 0 | Setup & Tooling | Skip | -- |
+| 0 | Setup & Tooling | Do | -- |
 | 1 | Math Foundations | Review | 23 |
 | 2 | ML Fundamentals | Do | 26 |
 | 3 | Deep Learning Core | Do | 15 |
@@ -38,6 +38,7 @@ I am learning AI to understand AI. By the end, I am not sure yet what I want to 
 ## Progress log
 | Date | Lesson | Quiz | Note |
 |------|--------|------|------|
+| 2026-10-23 | 00/01 | 1/3 | Completed the environment check (2/2 required), installed and verified CPU-only PyTorch (2.14.1+cpu; CUDA unavailable as expected), and ran hello-world examples in Python, TypeScript, Rust, and Julia. Recalled the four-layer order; review the PyTorch GPU availability check. |
 
 ## Review queue
-<empty for now; learn adds lessons the quizzes flag>
+- Phase 0, Lesson 1: Review how to check PyTorch GPU availability (`torch.cuda.is_available()`; CUDA is expected to be false for the CPU-only build).

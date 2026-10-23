@@ -1,0 +1,12 @@
+# Python environments and cache files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Node.js dependencies
+node_modules/
+
+# Rust build output and the compiled Phase 0 greeting
+/target/
+/learning-artifacts/hello
