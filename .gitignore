@@ -9,4 +9,7 @@ node_modules/
 
 # Rust build output and the compiled Phase 0 greeting
 /target/
-/learning-artifacts/hello
+/learning-artifacts/phase0/lesson1-Dev_env/hello
+*.pt
+*.pth
+*.safetensors

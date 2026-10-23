@@ -39,6 +39,7 @@ I am learning AI to understand AI. By the end, I am not sure yet what I want to 
 | Date | Lesson | Quiz | Note |
 |------|--------|------|------|
 | 2026-10-23 | 00/01 | 1/3 | Completed the environment check (2/2 required), installed and verified CPU-only PyTorch (2.14.1+cpu; CUDA unavailable as expected), and ran hello-world examples in Python, TypeScript, Rust, and Julia. Recalled the four-layer order; review the PyTorch GPU availability check. |
+| 2026-10-23 | 00/02 | 3/3 | Verified checkpoint ignore patterns with `git check-ignore` and inspected Phase 0 commit history. Explain the branch workflow; still practice creating a branch, committing, and pushing. |
 
 ## Review queue
 - Phase 0, Lesson 1: Review how to check PyTorch GPU availability (`torch.cuda.is_available()`; CUDA is expected to be false for the CPU-only build).
