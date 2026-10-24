@@ -4,6 +4,11 @@ venv/
 __pycache__/
 *.py[cod]
 .env
+.env.*
+!.env.example
+
+# Jupyter local checkpoints
+.ipynb_checkpoints/
 
 # Node.js dependencies
 node_modules/

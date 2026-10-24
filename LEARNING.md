@@ -44,6 +44,7 @@ I am learning AI to understand AI. By the end, I am not sure yet what I want to 
 | 2026-10-24 | 00/03 | — | Verified a Colab Tesla T4 with `nvidia-smi` and PyTorch (`torch.cuda.is_available()` is True). For a 5,000 × 5,000 matrix multiplication, the second run was CPU 2.014 s vs T4 0.088 s (23×). Local Intel UHD 620 has no NVIDIA CUDA GPU. Notes: `learning-artifacts/phase0/lesson3-GPU-Setup-and-cloud/DOCUMENT.md`. |
 | 2026-10-24 | 00/04 (in progress) | — | Learned that API keys authenticate requests and must stay out of source control. Added `.env` to `.gitignore`. No API key or request yet; Anthropic API use requires prepaid credits. |
 | 2026-10-24 | 00/04 | 2/3 | Wrote the SDK and raw HTTP exercise and verified syntax and dry-run mode. Explain key and request body; review the Anthropic raw HTTP key header. Live API calls remain pending until credits are available. |
+| 2026-10-24 | 00/05 | 3/3 | Created a VS Code notebook with Python venv; used Markdown, `%timeit`, and `%%time`, corrected a cell error, and verified Restart and Run All. |
 
 ## Review queue
 - Phase 0, Lesson 4: Review that Anthropic sends the API key in the `x-api-key` header.
