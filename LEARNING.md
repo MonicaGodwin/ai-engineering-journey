@@ -40,6 +40,8 @@ I am learning AI to understand AI. By the end, I am not sure yet what I want to 
 |------|--------|------|------|
 | 2026-10-23 | 00/01 | 1/3 | Completed the environment check (2/2 required), installed and verified CPU-only PyTorch (2.14.1+cpu; CUDA unavailable as expected), and ran hello-world examples in Python, TypeScript, Rust, and Julia. Recalled the four-layer order; review the PyTorch GPU availability check. |
 | 2026-10-23 | 00/02 | 3/3 | Verified checkpoint ignore patterns with `git check-ignore` and inspected Phase 0 commit history. Explain the branch workflow; still practice creating a branch, committing, and pushing. |
+| 2026-10-24 | 00/02 follow-up | — | Pulled remote updates on the personal system and resolved the `LEARNING.md` stash conflict. `main` now matches `origin/main`; branch, commit, and push practice remains. |
+| 2026-10-24 | 00/03 | — | Verified a Colab Tesla T4 with `nvidia-smi` and PyTorch (`torch.cuda.is_available()` is True). For a 5,000 × 5,000 matrix multiplication, the second run was CPU 2.014 s vs T4 0.088 s (23×). Local Intel UHD 620 has no NVIDIA CUDA GPU. Notes: `learning-artifacts/phase0/lesson3-GPU-Setup-and-cloud/DOCUMENT.md`. |
+| 2026-10-24 | 00/04 (in progress) | — | Learned that API keys authenticate requests and must stay out of source control. Added `.env` to `.gitignore`. No API key or request yet; Anthropic API use requires prepaid credits. |
 
 ## Review queue
-- Phase 0, Lesson 1: Review how to check PyTorch GPU availability (`torch.cuda.is_available()`; CUDA is expected to be false for the CPU-only build).
