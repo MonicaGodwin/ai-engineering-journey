@@ -3,9 +3,16 @@
 venv/
 __pycache__/
 *.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
 .env
 .env.*
 !.env.example
+
+# Operating system metadata
+.DS_Store
+Thumbs.db
 
 # Jupyter local checkpoints
 .ipynb_checkpoints/

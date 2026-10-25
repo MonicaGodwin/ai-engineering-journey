@@ -45,6 +45,9 @@ I am learning AI to understand AI. By the end, I am not sure yet what I want to 
 | 2026-10-24 | 00/04 (in progress) | — | Learned that API keys authenticate requests and must stay out of source control. Added `.env` to `.gitignore`. No API key or request yet; Anthropic API use requires prepaid credits. |
 | 2026-10-24 | 00/04 | 2/3 | Wrote the SDK and raw HTTP exercise and verified syntax and dry-run mode. Explain key and request body; review the Anthropic raw HTTP key header. Live API calls remain pending until credits are available. |
 | 2026-10-24 | 00/05 | 3/3 | Created a VS Code notebook with Python venv; used Markdown, `%timeit`, and `%%time`, corrected a cell error, and verified Restart and Run All. |
+| 2026-10-24 | 00/06 | 1/3 | Activated the repo `.venv` in VS Code and learned why environments and lockfiles matter; review how to check the active interpreter and diagnose PyTorch CUDA/driver mismatches. |
+| 2026-10-25 | 00/07 | 3/3 | Learned Docker images, containers, build layers, volume mounts, GPU exposure, and Compose service networking. `docker --version` works, but running containers is blocked because account `recoding` lacks Docker socket and sudo access. |
 
 ## Review queue
 - Phase 0, Lesson 4: Review that Anthropic sends the API key in the `x-api-key` header.
+- Phase 0, Lesson 6: Review checking the active Python interpreter (`which python`/`where python`) and that CUDA availability can fail when the installed PyTorch CUDA build is incompatible with the GPU driver.
