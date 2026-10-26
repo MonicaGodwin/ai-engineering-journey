@@ -49,6 +49,8 @@ I am learning AI to understand AI. By the end, I am not sure yet what I want to 
 | 2026-10-25 | 00/07 | 3/3 | Learned Docker images, containers, build layers, volume mounts, GPU exposure, and Compose service networking. `docker --version` works, but running containers is blocked because account `recoding` lacks Docker socket and sudo access. |
 | 2026-10-25 | 00/08 | 3/3 | Configured VS Code type checking, notebook output scrolling, and Black format-on-save; verified formatting and a Pylance type warning. Remote SSH was explained but not connected to a host. |
 | 2026-10-25 | 00/09 | 2/3 | Loaded and cached IMDB with Hugging Face `datasets`, made reproducible train/validation/test splits (22,500/2,500/25,000), compared CSV/JSON/Parquet, and streamed five Wikipedia titles. Review what `streaming=True` does. |
+| 2026-10-26 | 00/10 | 3/3 | Identified Zsh, practiced pipelines, log filtering and redirection, checked disk space (183 GB available), and learned SSH port forwarding. tmux is not installed, so its detach/reattach workflow was discussed but not run. |
+| 2026-10-26 | 00/11 | 3/3 | Practiced Linux home/path navigation, added execute permission to a temporary script, checked disk usage (`~/.cache` 3.5 GB; Hugging Face cache 208 MB), and reviewed apt/sudo and macOS/Linux `sed` differences. |
 
 ## Review queue
 - Phase 0, Lesson 4: Review that Anthropic sends the API key in the `x-api-key` header.
