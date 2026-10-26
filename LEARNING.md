@@ -48,7 +48,9 @@ I am learning AI to understand AI. By the end, I am not sure yet what I want to 
 | 2026-10-24 | 00/06 | 1/3 | Activated the repo `.venv` in VS Code and learned why environments and lockfiles matter; review how to check the active interpreter and diagnose PyTorch CUDA/driver mismatches. |
 | 2026-10-25 | 00/07 | 3/3 | Learned Docker images, containers, build layers, volume mounts, GPU exposure, and Compose service networking. `docker --version` works, but running containers is blocked because account `recoding` lacks Docker socket and sudo access. |
 | 2026-10-25 | 00/08 | 3/3 | Configured VS Code type checking, notebook output scrolling, and Black format-on-save; verified formatting and a Pylance type warning. Remote SSH was explained but not connected to a host. |
+| 2026-10-25 | 00/09 | 2/3 | Loaded and cached IMDB with Hugging Face `datasets`, made reproducible train/validation/test splits (22,500/2,500/25,000), compared CSV/JSON/Parquet, and streamed five Wikipedia titles. Review what `streaming=True` does. |
 
 ## Review queue
 - Phase 0, Lesson 4: Review that Anthropic sends the API key in the `x-api-key` header.
 - Phase 0, Lesson 6: Review checking the active Python interpreter (`which python`/`where python`) and that CUDA availability can fail when the installed PyTorch CUDA build is incompatible with the GPU driver.
+- Phase 0, Lesson 9: Review that `streaming=True` yields dataset rows on demand without downloading the entire dataset first.
