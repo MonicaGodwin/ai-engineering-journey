@@ -51,6 +51,7 @@ I am learning AI to understand AI. By the end, I am not sure yet what I want to 
 | 2026-10-25 | 00/09 | 2/3 | Loaded and cached IMDB with Hugging Face `datasets`, made reproducible train/validation/test splits (22,500/2,500/25,000), compared CSV/JSON/Parquet, and streamed five Wikipedia titles. Review what `streaming=True` does. |
 | 2026-10-26 | 00/10 | 3/3 | Identified Zsh, practiced pipelines, log filtering and redirection, checked disk space (183 GB available), and learned SSH port forwarding. tmux is not installed, so its detach/reattach workflow was discussed but not run. |
 | 2026-10-26 | 00/11 | 3/3 | Practiced Linux home/path navigation, added execute permission to a temporary script, checked disk usage (`~/.cache` 3.5 GB; Hugging Face cache 208 MB), and reviewed apt/sudo and macOS/Linux `sed` differences. |
+| 2026-10-26 | 00/12 | 3/3 | Used PyTorch diagnostics to inspect tensor shape, dtype, device, range, and NaNs; fixed a matrix shape mismatch; profiled a Python function with `cProfile`; learned conditional breakpoints, logging, and TensorBoard. |
 
 ## Review queue
 - Phase 0, Lesson 4: Review that Anthropic sends the API key in the `x-api-key` header.
