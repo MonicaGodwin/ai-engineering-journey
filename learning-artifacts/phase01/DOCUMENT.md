@@ -31,3 +31,10 @@ Embeddings help AI systems with tasks such as:
 Important: raw image pixels and image embeddings are not the same
 thing. Pixels are the image's raw numerical data. An image embedding is
 a vector produced by a model to capture useful features of the image.
+
+3. Understanding Vector Magnitude
+The magnitude of a vector tells us its length.
+
+For a two-dimensional vector [x, y], calculate its magnitude using:
+
+\(`\text{magnitude}`{=tex} = `\sqrt{x^2 + y^2}`{=tex}\)
