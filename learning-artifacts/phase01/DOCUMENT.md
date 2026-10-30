@@ -38,3 +38,24 @@ The magnitude of a vector tells us its length.
 For a two-dimensional vector [x, y], calculate its magnitude using:
 
 \(`\text{magnitude}`{=tex} = `\sqrt{x^2 + y^2}`{=tex}\)
+
+. Why Matrices Matter in AI
+Matrices are important in machine learning and neural networks because
+they allow models to perform many numerical operations efficiently.
+
+Examples include:
+- Neural-network weights: groups of learned numbers are arranged
+  in matrices and used to transform input data between layers.
+- Embeddings: models can transform vector representations as
+  information moves through a network.
+- Attention mechanisms: matrix operations help models calculate
+  how different pieces of information relate to one another.
+- Image processing: matrices can represent and transform image
+  data.
+A simplified way to picture a neural network is:
+1. The model receives numerical input.
+2. Matrix operations transform that input.
+3. The model applies additional operations.
+4. The model produces an output.
+Real neural networks contain more steps and operations, but matrix
+multiplication is one of their important building blocks.
