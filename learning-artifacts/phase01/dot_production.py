@@ -10,6 +10,7 @@ magnitude_b = math.sqrt(b[0]** 2 + b[1]**2)
 
 cosine_similarity = dot_product / magnitude_a * magnitude_b
 
-
+print(dot_product)
+print(magnitude_a)
 print(magnitude_b)
 print(cosine_similarity)
