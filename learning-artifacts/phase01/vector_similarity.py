@@ -10,4 +10,4 @@ cosine_calculation = magnitude_a * magnitude_b
 
 cosine_similarity = dot_production / cosine_calculation
 
-print(cosine_calculation)
+print(cosine_similarity)
